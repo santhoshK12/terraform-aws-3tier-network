@@ -14,6 +14,7 @@ The project automates the deployment of:
 * **IaC (Infrastructure as Code):** Managed via HashiCorp Configuration Language (HCL).
 * **Remote Backend:** State files are stored securely in an **Amazon S3** bucket with **DynamoDB** state locking (configured in `main.tf`).
 * **Variables:** Environment-specific settings are abstracted into `variables.tf` for reusability.
+* Modular Architecture: Reorganized infrastructure into reusable modules (/modules/vpc) to support scalability and cleaner code management.
 
 ## 🚀 Deployment Instructions
 1. Clone this repository to your local environment.
